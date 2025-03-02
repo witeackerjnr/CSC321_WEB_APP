@@ -1,0 +1,42 @@
+body {
+    background-color: white;
+    color: black;
+    transition: background 0.5s, color 0.5s;
+}
+h1{
+    color: black;
+}
+li {
+    color: black;
+}
+
+.dark-mode {
+    background-color: black;
+    color: white;
+}
+
+.dark-mode li {
+    color: white;
+}
+
+.dark-mode p {
+    color: white;
+}
+
+.dark-mode h1 {
+ color: white;
+}
+
+.toggle-btn {
+    padding: 10px;
+    font-size: 16px;
+    background-color: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin: 20px;
+}
+
+.toggle-btn:hover {
+    background-color: #555;
+}
