@@ -2,10 +2,10 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="viewport" content="width=device-width, intial-scale=1.0">
         <title>Tife's Delight</title>
         <style>
-            li {
+            li{
                 color: white;
             }
         </style>
@@ -13,74 +13,68 @@
         <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     </head>
     <body>
-    <div class="header">
         <button class="toggle-btn">Toggle Dark Mode</button>
-        <img src="Images/T-removebg-preview.png" alt="Tife's Delight Logo">
-    </div>
-        <h1>Welcome to Tife's Delight</h1>
-        <h2>Your one-stop shop for everything Cyber Gadgets</h2>
-        
+        <img src="/Images/T-removebg-preview.png" alt="Tife's delight logo" width="250px" style="float: right;">
+       <p> <h1 >Welcome to Tife's  Delight</h1>
+        <h2>Your one stop shop for everything Cyber gadgets</h2></p>
         <ol>
-            <li>
-                <p><img src="Images/alpha.jpeg" alt="Alpha Network Adapter (AWUS036H)" width="150px"></p>
-                <p>Item 1: Alpha Network Adapter (AWUS036H)</p>
-                <p>Price: $49.99</p>
-                <p>Description: A powerful USB Wi-Fi adapter that is popular in the cybersecurity community for network penetration testing, especially for capturing wireless signals.</p>
-            </li>
-            <li>
-                <p><img src="Images/bootable.jpeg" alt="Bootable Kali Linux"></p>
-                <p>Item 2: Kali Linux (on a USB Drive)</p>
-                <p>Price: $18.99</p>
-                <p>Description: A popular Linux distribution designed for penetration testing and security auditing. It comes preloaded with numerous security tools.</p>
-            </li>
-            <li>
-                <p><img src="Images/defender.jpeg" alt="USB Defender"></p>
-                <p>Item 3: USB Defender</p>
-                <p>Price: $39.99</p>
-                <p>Description: A small hardware device designed to protect your computer from potential threats when inserting USB devices, such as malware and unauthorized access.</p>
-            </li>
-            <li>
-                <p><img src="Images/ducky.jpeg" alt="USB Rubber Ducky"></p>
-                <p>Item 4: USB Rubber Ducky</p>
-                <p>Price: $34.99</p>
-                <p>Description: A USB device that looks like a regular flash drive but is capable of automating keystroke injection attacks, often used in penetration testing.</p>
-            </li>
-            <li>
-                <p><img src="Images/flipper.jpeg" alt="Flipper Zero"></p>
-                <p>Item 5: Flipper Zero</p>
-                <p>Price: $169</p>
-                <p>Description: A multi-functional hacking tool that can interact with various radio protocols, including RFID, NFC, infrared, and more. It is used for experimenting and testing wireless protocols.</p>
-            </li>
-            <li>
-                <p><img src="Images/hackrf.jpeg" alt="HackRF One"></p>
-                <p>Item 6: HackRF One</p>
-                <p>Price: $299</p>
-                <p>Description: A software-defined radio (SDR) that allows you to transmit or receive radio signals. It is used for wireless communication analysis and security research.</p>
-            </li>
-            <li>
-                <p><img src="Images/pineapple.jpeg" alt="Wi-Fi Pineapple"></p>
-                <p>Item 7: Wi-Fi Pineapple</p>
-                <p>Price: $199</p>
-                <p>Description: A penetration testing tool for Wi-Fi networks, often used for network auditing, man-in-the-middle attacks, and penetration testing.</p>
-            </li>
-            <li>
-                <p><img src="Images/proxmarxs.jpeg" alt="Proxmark3"></p>
-                <p>Item 8: Proxmark3</p>
-                <p>Price: $350</p>
-                <p>Description: An RFID tool used for cloning, reading, and writing RFID tags. It is commonly used in penetration testing for security systems involving RFID.</p>
-            </li>
-            <li>
-                <p><img src="Images/Rasberry5.webp" alt="Raspberry Pi 5"></p>
-                <p>Item 9: Raspberry Pi 5</p>
-                <p>Price: $119.99</p>
-                <p>Description: A small single-board computer used for various hacking and cybersecurity projects. Great for penetration testing, building DIY security systems, or setting up a personal server.</p>
-            </li>
-        </ol>
-
-        <address>
-            Contact us at <a href="mailto:boluwatife.opeyemi@elizadeuniversity.edu.ng">boluwatife.opeyemi@elizadeuniversity.edu.ng</a>
-        </address> 
-        
+        <li>
+            <p><img src="Images/alpha.jpeg" alt="Alpha Network Adapter (AWUS036H)" width="150px" id="lol"></p>
+            <p> Item 1:  Alpha Network Adapter (AWUS036H)</p>
+            <p id="alpha">Price: $49.99</p>
+            <p class="Description">Description: A powerful USB Wi-Fi adapter that is popular in the cybersecurity community for network penetration testing, especially for capturing wireless signals.</p>
+        </li>
+        <li>
+            <p><img src="Images/bootable.jpeg" alt="Bootable Kali Linux"> </p>
+            <p>Item 2: Kali Linux (on a USB Drive)</p>
+            <p>Price: $18.99</p>
+            <p>Description: A popular Linux distribution designed for penetration testing and security auditing. It comes preloaded with numerous security tools.</p>
+        </li>
+        <li>
+            <p><img src="Images/defender.jpeg" alt="USB Defender"></p>
+            <p> Item 3: USB Defender</p>
+            <p>Price: $39.99</p>
+            <p>Description:A small hardware device designed to protect your computer from potential threats when inserting USB devices, such as malware and unauthorized access. </p>
+        </li>
+        <li>
+            <p><img src="Images/ducky.jpeg" alt="USB Rubber Ducky"></p>
+            <p> Item 4: USB Rubber Ducky</p>
+            <p>Price: $34.99</p>
+            <p>Description:  A USB device that looks like a regular flash drive but is capable of automating keystroke injection attacks, often used in penetration testing.</p>
+        </li>
+        <li>
+            <p><img src="Images/flipper.jpeg" alt="Flipper Zero"></p>
+            <p>Item 5: Flipper Zero</p>
+            <p>Price: $169</p>
+            <p>Description:  A multi-functional hacking tool that can interact with various radio protocols, including RFID, NFC, infrared, and more. It is used for experimenting and testing wireless protocols.</p>
+        </li>
+        <li>
+            <p><img src="Images/hackrf.jpeg" alt="HackRF One"></p>
+            <p>Item 6: HackRF One</p>
+            <p>Price: $299</p>
+            <p>Description:  A software-defined radio (SDR) that allows you to transmit or receive radio signals. It is used for wireless communication analysis and security research. </p>
+        </li>
+        <li>
+            <p><img src="Images/pineapple.jpeg" alt="Wi-Fi Pineapple"></p>
+            <p>Item 7: Wi-Fi Pineapple</p>
+            <p>Price: $199</p>
+            <p>Description: A penetration testing tool for Wi-Fi networks, often used for network auditing, man-in-the-middle attacks, and penetration testing.</p>
+        </li>
+        <li>
+            <p><img src="Images/proxmarxs.jpeg" alt="Proxmark3"></p>
+            <p>Item 8: Proxmark3</p>
+            <p>Price: $350</p>
+            <p>Description: An RFID tool used for cloning, reading, and writing RFID tags. It is commonly used in penetration testing for security systems involving RFID. </p>
+        </li>
+        <li>
+            <p><img src="Images/Rasberry5.webp" alt="Raspberry Pi 5"></p>
+            <p>Item 9: Raspberry Pi 5</p>
+            <p>Price: $119.99</p>
+            <p>Description: A small single-board computer used for various hacking and cybersecurity projects. Great for penetration testing, building DIY security systems, or setting up a personal server</p>
+        </li>
+    </ol>
+<address>
+        Contact us at <a href="mailto:boluwatife.opeyemi@elizadeuniversity.edu.ng">boluwatife.opeyemi@elizadeuniversity.edu.ng</a></address> 
         <script src="script.js"></script>
-    </body>
+</body>
 </html>
