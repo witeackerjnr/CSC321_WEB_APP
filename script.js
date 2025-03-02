@@ -7,6 +7,7 @@ $(document).ready(function() {
     $(".toggle-btn").click(function() {
         $("body").toggleClass("dark-mode");
 
+       
         if ($("body").hasClass("dark-mode")) {
             localStorage.setItem("dark-mode", "enabled");
         } else {
@@ -14,5 +15,6 @@ $(document).ready(function() {
         }
     });
 
+   
     $("body").css("display", "none").fadeIn(800);
 });
